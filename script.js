@@ -38,9 +38,14 @@ function getRandomInt(max) {
 
 //Adding function that changes Linear Gradient on Click
 function randomGradient(){
+	// var1 = getRandomInt(255);var2 = getRandomInt(255);
+	// var3 = getRandomInt(255);var4 = getRandomInt(255);
+	// var5 = getRandomInt(255);var6 = getRandomInt(255);
 	body.style.background = "linear-gradient(to right, rgb("
 	+ getRandomInt(255) +"," + getRandomInt(255) +"," + getRandomInt(255)
 	+ "), rgb(" + getRandomInt(255) +"," + getRandomInt(255) +"," + getRandomInt(255)
 	+ "))";
 	css.textContent = body.style.background + ";";
+
+	// document.getElementById("color1").setAttribute('value',="#3e22f7");
 }
