@@ -25,3 +25,14 @@ h3 {
     letter-spacing: 0.01em;
 
 }
+
+.button{
+  background-color:  #e7e7e7; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}

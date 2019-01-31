@@ -4,11 +4,15 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 
+//Adding Button Initialization
+var button = document.querySelector(".button");
+
 //Testing the Variables to the Log
 console.log(color1);
 console.log(color2);
 console.log(css);
 console.log(body);
+console.log(button);
 
 //Creating Set Gradient Function:
 function setGradient(){
@@ -27,3 +31,16 @@ color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
 
+//Adding Ability to Get Random Integers up to 255 (Will Need 6)
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+//Adding function that changes Linear Gradient on Click
+function randomGradient(){
+	body.style.background = "linear-gradient(to right, rgb("
+	+ getRandomInt(255) +"," + getRandomInt(255) +"," + getRandomInt(255)
+	+ "), rgb(" + getRandomInt(255) +"," + getRandomInt(255) +"," + getRandomInt(255)
+	+ "))";
+	css.textContent = body.style.background + ";";
+}
