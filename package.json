@@ -1,0 +1,19 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "Simple Application that takes two inputs and creates a gradient background",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisStobbe/BackgroundGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrisStobbe/BackgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/KrisStobbe/BackgroundGenerator#readme"
+}
